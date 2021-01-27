@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import Footer from "./components/Footer/footer";
-import Header from "./components/Header/header";
-import EmployeeTable from "./components/EmployeeTable/EmployeeTable";
-import Wrapper from './components/Wrapper/index'
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import EmployeeTable from "./components/EmployeeTable";
+import Wrapper from "./components/Wrapper";
+import SearchFilter from "./components/SearchFilter"
 
 
 
@@ -14,6 +15,7 @@ function App() {
 
       <Header />
       <Wrapper>
+        <SearchFilter />
         <EmployeeTable />
       </Wrapper>
       <Footer />
